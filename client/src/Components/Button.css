@@ -1,0 +1,15 @@
+.mainButton {
+  
+  background-color: #e49bbe;
+  color: #0e0d0d;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  width: 250.85px;
+  box-sizing: border-box;
+  height: 60.44px;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  font-family: 'Courier Prime';
+}

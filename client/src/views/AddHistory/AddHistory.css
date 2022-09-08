@@ -1,0 +1,95 @@
+.ninastechLogo {
+  width: 181px;
+  height: 170px;
+  margin-top: 100px;
+  margin-left: 250px;
+}
+
+img {
+  width: 589px;
+  height: 550px;
+}
+
+.displayFlex {
+  display: flex;
+}
+
+.flex1 { 
+flex: 1;
+}
+
+.textTop {
+  margin-left: 100px;
+  margin-top: 90px;
+  font-family: "Courier Prime";
+  font-size: 40px;
+}
+
+.pinkBox { 
+  width: 150px;
+  background: #FFF5FA;
+  border: 1px solid #000000;
+  width: 148px;
+  height: 23px;
+  margin: 8px;
+}
+
+textarea {
+  background: #FFF5FA;
+  border: 1px solid #000000;
+  width: 360px;
+  height: 350px;
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  margin: 8px;
+}
+.align {
+  width: 389px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+
+label {
+  font-family: "Courier Prime";
+}
+
+.contain {
+  width: 850px;
+  height: 128.99px;
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.buttonHistory {
+  border-radius: 30px;
+  background-color: #e49bbe;
+  border: 150px;
+  color: #0e0d0d;
+  text-align: center;
+  font-size: 18px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+  width: 250.85px;
+  box-sizing: border-box;
+  height: 60.44px;
+  background: #f8a4cd;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  margin-left: 700px;
+  margin-top: 80px;
+  }
+
+
+
+
+
+
+
+
