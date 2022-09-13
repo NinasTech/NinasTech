@@ -21,7 +21,6 @@ img {
 .textTop {
   margin-left: 100px;
   margin-top: 90px;
-  font-family: "Courier Prime";
   font-size: 40px;
 }
 
@@ -51,9 +50,6 @@ textarea {
   align-items: flex-end;
 }
 
-label {
-  font-family: "Courier Prime";
-}
 
 .contain {
   width: 850px;
