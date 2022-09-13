@@ -1,14 +1,15 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
 import Button from "../../Components/Button";
+import NinaInfo from "../../Components/NinaInfo";
 
 const ninastechLogo = require("../../assets/realNinaLogo.png");
 const desenho1 = require("../../assets/desenho1.jpeg");
 const mac = require("../../assets/mac.jpeg");
 
 function Home() {
-  const [ninas, setNinas] = useState([])
+  const [ninas, setNinas] = useState([]);
   const navigate = useNavigate();
 
   React.useEffect(() => {
@@ -23,7 +24,7 @@ function Home() {
 
   const handleNinaClick = (id) => {
     navigate(`/show/${id}`);
-  }
+  };
 
   return (
     <div className="App homePage">
@@ -58,10 +59,14 @@ function Home() {
           <h1>Clique em uma das historias para ler e se inspirar!</h1>
         </div>
         <div className="blocks-pictures">
-          {ninas.map(nina => (
-             <div key={nina.girl_id} className="history-girl" onClick={() => handleNinaClick(nina.girl_id)}>
+          {ninas.map((nina) => (
+            <div
+              key={nina.girl_id}
+              className="history-girl"
+              onClick={() => handleNinaClick(nina.girl_id)}
+            >
               <img className="nina-picture" src={nina.image_url} />
-              <div className="nome-profissao">{nina.name}-{nina.profession}</div>
+              <NinaInfo nina={nina} />
             </div>
           ))}
         </div>

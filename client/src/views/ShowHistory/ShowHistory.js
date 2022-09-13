@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./ShowHistory.css";
 import { useNavigate, useParams } from "react-router-dom";
-import ThirdButton from "../../Components/Button";
+import Button from "../../Components/Button";
+import NinaInfo from "../../Components/NinaInfo";
 
 const ninastechLogo = require("../../assets/realNinaLogo.png");
 const outra = require("../../assets/outra.jpeg");
@@ -27,7 +28,7 @@ const ShowHistory = () => {
         <div className="display-flex-direction"></div>
         <img className="ninastechLogo" src={ninastechLogo} />
         <img className="outra" src={outra} />
-        <ThirdButton
+        <Button
           text="Voltar para a página!"
           className="voltar"
           onClick={handleClick}
@@ -35,10 +36,10 @@ const ShowHistory = () => {
       </div>
       <div className="flex1">
         {nina ? (
-          <div>
+          <div className="center-story">
             <div className="display-flex-direction"></div>
             <img className="usuarios" src={nina.image_url} />
-            <div className="nome-profissao">{nina.name}-{nina.profession}</div>
+            <NinaInfo nina={nina} />
             <div className="box-text">{nina.story}</div>
           </div>
         ) : null}

@@ -4,6 +4,7 @@
   width: 600px;
   border-radius: 30px;
 }
+
 .mainButton.adicionar {
   border-radius: 30px;
   border: none;
@@ -16,20 +17,80 @@
 
 .history-girl {
   display: flex;
-    flex-direction: column;
-    align-items: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  cursor: pointer;
 }
 
+.buttonAndImg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-.nome-profissao {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-color: #000000;
-  width: 150px;
-  height: 55px;
-  background: #F49BB0;
+.header {
+  border: 40px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 120%;
+  background: rgba(161, 159, 159, 0.5);
   box-sizing: border-box;
-  border: 2px solid #000000;
-  transform: rotate(-0.01deg);
-  margin: 2px;
+}
 
+.textAndImage {
+  display: flex;
+  font-style: normal;
+  font-weight: 30;
+  font-size: 20px;
+  color: #000000;
+  box-sizing: border-box;
+}
+
+.ninastechLogo {
+  width: 200px;
+  height: 150px;
+}
+
+.homePage .ninastechLogo {
+  width: 300px;
+  height: 200px;
+}
+
+.desenho1 {
+  width: 358px;
+  height: 350px;
+}
+
+.mac {
+  width: 387px;
+  height: 287px;
+}
+
+.blocks-pictures {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.blocks-names {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  margin: 30px;
+  column-gap: 100px;
+}
+
+.nina-picture {
+  width: 378px;
+  height: 290px;
+}
+
+.cliqueAqui {
+  text-align: center;
+  margin: 52px;
 }

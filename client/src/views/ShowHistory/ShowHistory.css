@@ -1,25 +1,23 @@
 .display-flex {
   display: flex;
   align-items: center;
-
 }
 .flex1 {
-  flex:1; 
+  flex: 1;
 }
 .display-flex-direction {
   flex-direction: column;
 }
 
-
 .ninastechLogo {
   width: 181px;
-  height: 170px; 
+  height: 170px;
   margin: 82px;
 }
 
 .outra {
   width: 360px;
-  height: 430px; 
+  height: 430px;
 }
 
 .voltar {
@@ -38,36 +36,57 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   transform: matrix(1, 0, 0, 1, 0, 0);
   margin: 48px;
- 
-  }
+}
 
-  .usuarios {
-    width: 500px;
-    height: 300px;
-  
-  }
+.usuarios {
+  width: 500px;
+  height: 300px;
+}
 
-  .nome-profissao {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-color: #000000;
-    width: 450px;
-    height: 55px;
-    background: #F49BB0;
-    box-sizing: border-box;
-    border: 2px solid #000000;
-    transform: rotate(-0.01deg);
-    margin: 30px;
-  }
+.nome-profissao {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-color: #000000;
+  width: 400px;
+  height: 83px;
+  background: #f49bb0;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  transform: rotate(-0.01deg);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 
 .box-text {
-  background: #FFF5FA;
+  background: #fff5fa;
   border: 1px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-color: #000000;
   width: 476px;
-  height: 261px;
+  margin-top: 20px;
+  font-size: 17px;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-h3 {
-  font-family: 'Courier Prime';
+.nome {
+  font-size: 30px;
+}
+
+.profissao {
+  font-size: 20px;
+  color: rgb(241, 234, 234);
+  font-style: oblique;
+}
+
+.cidade {
+  font-size: 15px;
+  color: rgb(44, 41, 41);
+  font-style: oblique;
+}
+
+.center-story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -14,8 +14,8 @@ img {
   display: flex;
 }
 
-.flex1 { 
-flex: 1;
+.flex1 {
+  flex: 1;
 }
 
 .textTop {
@@ -25,9 +25,9 @@ flex: 1;
   font-size: 40px;
 }
 
-.pinkBox { 
+.pinkBox {
   width: 150px;
-  background: #FFF5FA;
+  background: #fff5fa;
   border: 1px solid #000000;
   width: 148px;
   height: 23px;
@@ -35,12 +35,12 @@ flex: 1;
 }
 
 textarea {
-  background: #FFF5FA;
+  background: #fff5fa;
   border: 1px solid #000000;
   width: 360px;
   height: 350px;
   display: flex;
-  flex:1;
+  flex: 1;
   flex-direction: column;
   margin: 8px;
 }
@@ -51,7 +51,6 @@ textarea {
   align-items: flex-end;
 }
 
-
 label {
   font-family: "Courier Prime";
 }
@@ -60,7 +59,7 @@ label {
   width: 850px;
   height: 128.99px;
   display: flex;
-  flex:1;
+  flex: 1;
   flex-direction: column;
   margin: 30px;
 }
@@ -84,12 +83,4 @@ label {
   transform: matrix(1, 0, 0, 1, 0, 0);
   margin-left: 700px;
   margin-top: 80px;
-  }
-
-
-
-
-
-
-
-
+}
