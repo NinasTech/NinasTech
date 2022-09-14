@@ -34,7 +34,7 @@ function Home() {
           <h2>
             Ninastech, é uma comunidade que visa trazer informações e
             conhecimento para meninas brasileiras que desejam trabalhar em com
-            tecnologia.{" "}
+            tecnologia.
           </h2>
           <img className="ninastechLogo" src={ninastechLogo} />
         </div>
@@ -42,9 +42,9 @@ function Home() {
       <div>
         <div className="textMac">
           <h2>
-            Aqui voce pode compartilhar sua historia de sucesso com a comunidade
-            NinasTech. Com objetivo de inspirar meninas que estao comecando no
-            espaco de tecnologia.
+            Aqui você pode compartilhar suas experiências trabalhando com
+            tecnologia e influenciar outras pessoas a também quererem trabalhar
+            com programação. 
           </h2>
         </div>
         <div className="buttonAndImg">
