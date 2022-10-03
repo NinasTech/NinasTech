@@ -1,5 +1,5 @@
-<img width="153" alt="Screen Shot 2022-08-01 at 4 28 30 PM (2)" src="https://user-images.githubusercontent.com/82294375/193685002-5cc02cbb-1686-4f0d-b66c-fb18b8a49d9f.png">
 
+![NinasTech-1 (5) copy](https://user-images.githubusercontent.com/82294375/193685307-e89b57ca-69a1-4313-a80e-09b735bed405.png)
 
 
 https://ninas-tech.herokuapp.com/
